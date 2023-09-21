@@ -6,6 +6,13 @@
     display: flex;
     align-items: center;
 }
+.template_intro h2 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
 .img1  {
     width: 270px;
     height: 58px;
