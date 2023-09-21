@@ -1,1 +1,164 @@
-/*  */
+/* template */
+#template {
+    height: 100vh;
+    min-height: 700px;
+    background-color: #0a2640 ;
+    display: flex;
+    align-items: center;
+}
+.img1  {
+    width: 270px;
+    height: 58px;
+}
+.template-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.template-icons {
+    gap: 20px;
+}
+.template-blocks {
+    gap: 20px;
+}
+.template-block {
+    padding: 40px;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: Open Sans;
+    gap: 40px;
+}
+.first-block {
+    width: 350px;
+    height: 322px;
+}
+.second-block {
+    width: 350px;
+    height: 394px;
+}
+.third-block {
+    width: 350px ;
+    height: 358px;
+}
+/* template end*/
+
+/* service */
+#service {
+    height: 120vh;
+    min-height: 700px;
+    
+    display: flex;
+    align-items: center;
+}
+.service-text h3{
+   line-height: 56px;
+   font-weight: 400;
+}
+.service-item p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+.service-item {
+    border-bottom: 1px solid gray;
+    width: 500px;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+.service-items {
+    gap: 28px;
+}
+.author1 {
+    width: 270px;
+    height: 58px;
+    
+}
+.category {
+    width: 300px;
+    gap: 24px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.categories {
+    gap: 50px;
+}
+.category p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.category p span {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.category .py {
+    font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+/* service end */
+
+/* value */
+#value {
+    height: 140vh;
+    min-height: 700px;
+    
+    display: flex;
+    align-items: center;
+}
+.value1 {
+    margin-top: 22%;
+    
+}
+.value3 {
+    margin-top: 11%;
+}
+.value-intro p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.value-intro h2 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+.button {
+    padding: 16px 56px;
+    border-radius: 56px;
+    border: 2px solid #0A2640;
+    width: 219px;
+    
+    text-align: center;
+    height: 60px;
+    color:  #0A2640;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+/* value end*/
