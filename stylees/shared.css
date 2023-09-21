@@ -1,3 +1,193 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'Manrope', sans-serif;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    all: unset;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* reset end */
+
+
+/* utils */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-inline: 4rem;
+}
+.container-fluid {
+    width: 100%;
+    padding-inline: 3rem;
+}
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: start;
+}
+.align-end {
+    align-items: end;
+}
+.align-baseline {
+    align-items: baseline;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.gap-0 {
+    gap: 0;
+}
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.gap-3 {
+    gap: 3rem;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-4 {
+    flex: 4;
+}
+.flex-5 {
+    flex: 5;
+}
+.flex-6 {
+    flex: 6;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.text-center {
+    text-align: center;
+}
+.text-sm {
+    font-size: 1rem;
+}
+
+.text-md {
+    font-size: 1.75rem;
+}
+.text-lg {
+    font-size: 2.25rem;
+}
+.text-xl {
+    font-size: 3rem;
+}
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-3 {
+    margin: 3rem;
+}
+.mx-1 {
+    margin-inline: 1rem;
+}
+.mx-2 {
+    margin-inline: 2rem;
+}
+.mx-3 {
+    margin-inline: 3rem;
+}
+.my-1 {
+    margin-block: 1rem;
+}
+.my-2 {
+    margin-block: 2rem;
+}
+.my-3 {
+    margin-block: 3rem;
+}
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.px-1 {
+    padding-block: 1rem;
+}
+.px-2 {
+    padding-block: 2rem;
+}
+.px-3 {
+    padding-block: 3rem;
+}
+.py-1 {
+    padding-block: 1rem;
+}
+.py-2 {
+    padding-block: 2rem;
+}
+.py-3 {
+    padding-block: 3rem;
+}
+.text-primary {
+    color: white;
+}
+.text-secondary {
+  color: #f1f1f1;
+}
+.text-gray {
+  color: #777;
+}
+/* utils end */
