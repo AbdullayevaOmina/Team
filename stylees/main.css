@@ -35,10 +35,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 84px;
-  padding-top: 0;
+  padding-top: -20px;
 }
 
 .hero-heading-text {
+  width: 650px;
+  height: 64px;
+  margin-left: 120px;
   color: var(--Light-Grey, #f1f1f1);
   text-align: center;
   font-family: Open Sans;
@@ -146,6 +149,7 @@
 .our-numbers {
   display: flex;
   align-items: space-between;
+  margin-left: 25px;
 }
 
 .number {
@@ -172,3 +176,239 @@
 }
 
 /* SECTION-OUR-TEAM */
+
+.section-our-team {
+}
+
+.section-our-team-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.our-team-content {
+  display: flex;
+  width: 800px;
+  height: 121px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 200px;
+  gap: 12px;
+}
+
+.our-team {
+  color: var(--Gray, #777);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.our-team-heading {
+  width: 842px;
+  color: #000;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+}
+
+.our-team-text {
+  width: 799px;
+  height: 110px;
+  color: var(--Gray, #777);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.our-team-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-team-card {
+}
+
+.our-team-card-heading {
+  color: #000;
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 171.429% */
+}
+
+.our-team-card-text {
+  color: var(--Gray, #777);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.section-our-values {
+  background: #0a2640;
+}
+.section-our-values-container {
+  padding: 100px;
+  margin-left: 299px;
+}
+
+.our-values-content {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  width: 800px;
+  height: 121px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.our-values {
+  color: var(--White, #fff);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+.our-values-heading {
+  width: 842px;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+  padding-bottom: 20px;
+}
+.our-values-text {
+  width: 799px;
+  height: 110px;
+  flex-shrink: 0;
+  color: var(--Light-Grey, #f1f1f1);
+
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.our-values-cards {
+}
+.our-values-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 72px;
+  border-radius: 24px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-heading {
+  display: flex;
+  width: 842px;
+  height: 39px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+
+  /* Headings/Text L */
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 171.429% */
+}
+
+.card-text {
+  width: 602px;
+  height: 71px;
+  color: var(--Light-Grey, #f1f1f1);
+
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/* SECTION-EMAIL-ADDRESS */
+
+.section-email-address {
+}
+
+.email-address {
+  margin: 150px 150px;
+  width: 1200px;
+  height: 400px;
+  background: rgba(10, 38, 64, 1);
+}
+
+.label-div {
+  width: 750px;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.label-text {
+  width: 100px;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+}
+
+.email-address-buttons {
+  display: flex;
+  gap: 20px;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+.email-address-input {
+  width: 300px;
+  height: 46px;
+  font-size: 20px;
+  flex-shrink: 0;
+  border-radius: 240px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  text-align: center;
+
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-style: bold;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.email-address-button {
+  width: 198px;
+  height: 46px;
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 56px;
+  border: 2px solid var(--Green, #65e4a3);
+  background: var(--Green, #65e4a3);
+}
