@@ -20,7 +20,7 @@
   line-height: 72px;
 }
 
-.input {
+.input-footer {
   width: 370px;
   height: 56px;
   top: 261px;
@@ -28,7 +28,7 @@
   border-radius: 240px
 }
 
-.button {
+.button-footer {
   width: 210px;
   height: 55px;
   border-radius: 240px;
@@ -36,13 +36,13 @@
   color: black;
 }
 
-.button.hiring {
+.button-footer.hiring {
   width: 72px;
   height: 28px;
   text-align: center;
 }
 
-.logo {
+.logo-footer {
   width: 156px;
   height: 41px;
   top: 100px;
