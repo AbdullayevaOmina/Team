@@ -449,6 +449,18 @@ header {
 
 /* FOOTER */
 
+/* footer qismi */
+
+.footer-bg-image {
+  /* width: 1400px;
+  height: 450px; */
+  border-radius: 15px;
+  background-image: url(/images/footer-bg-image.png);
+  background-color: #0a2640;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .footer-blocks {
   gap: 50px;
 }
@@ -484,12 +496,15 @@ header {
   top: 261px;
   left: 298px;
   border-radius: 240px;
+
+  border-radius: 240px;
 }
 
 .button-footer {
   width: 210px;
   height: 55px;
   border-radius: 240px;
+  background-color: #65e4a3;
   background-color: #65e4a3;
   color: black;
 }
@@ -509,11 +524,26 @@ header {
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
+.logo-footer {
+  width: 156px;
+  height: 41px;
+  top: 100px;
+  left: 100px;
+  padding: 0px, 0px, 0px, 0px;
+}
+
+.footer-p {
+  width: 300px;
+  height: 84px;
+  top: 181px;
+  left: 100px;
+}
 
 .footer-ul {
   width: 642px;
   height: 240px;
   top: 100px;
+  left: 579px;
   left: 579px;
 }
 
@@ -531,11 +561,10 @@ header {
 .footer-all-rights {
   width: 250px;
   color: var(--Gray, #777);
-
-  /* Paragraphs/Text XS */
   font-family: Open Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
+  left: 579px;
 }
