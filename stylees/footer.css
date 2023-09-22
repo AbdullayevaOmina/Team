@@ -1,20 +1,23 @@
 .footer-bg-image {
-  width: 1293px;
-  height: 1293px;
-  top: -1054px;
-  left: 466px;
+  width: 1400px;
+  height: 450px;
+  border-radius: 15px;
   background-image: url(/images/footer-bg-image.png);
+  background-color: #0A2640;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  width: 1400px;
+  /* height: 450px; */
 
 }
 
-.footer-h2 {
-  font-family: Manrope;
+.h2-footer {
   font-size: 48px;
   font-weight: 400;
   line-height: 72px;
-  letter-spacing: 0em;
-  text-align: center;
 }
 
 .input {
@@ -26,14 +29,93 @@
 }
 
 .button {
-  width: Hug (210px);
-  height: Hug (60px);
-  top: 259px;
-  left: 692px;
-  padding: 16px, 56px, 16px, 56px;
-  border-radius: 56px;
-  border: 2px;
-  gap: 8px;
+  width: 210px;
+  height: 55px;
+  border-radius: 240px;
   background-color: #65E4A3;
   color: black;
+}
+
+.button.hiring {
+  width: 72px;
+  height: 28px;
+  text-align: center;
+}
+
+.logo {
+  width: 156px;
+  height: 41px;
+  top: 100px;
+  left: 100px;
+  padding: 0px, 0px, 0px, 0px
+}
+
+.footer-p {
+  width: 300px;
+  height: 84px;
+  top: 181px;
+  left: 100px
+}
+
+.footer-ul {
+  width: 642px;
+  height: 240px;
+  top: 100px;
+  left: 579px
+}
+
+.footer-ul-1 {
+  width: 150px;
+  height: 172px;
+  top: 168px;
+  left: 579px
+}
+
+
+/*---------------  3-page  ------------------ */
+
+.page-3-header-text {
+  text-align: center;
+  width: Fixed (888px);
+  height: Fixed (183px);
+  top: 143px;
+  left: 256px;
+  gap: 12px
+}
+
+.page-3-h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: 0em;
+}
+
+.page-3-p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.page-3-section-1-text {
+  width: Fixed (550px);
+  height: Fixed (247px);
+  top: 436px;
+  left: 750px;
+  gap: 20px
+}
+
+.page-3-srction-1 {
+  width: 1200px;
+  height: 386px;
+  top: 366px;
+  left: 100px;
+  border-radius: 24px
+}
+
+.page-3-img-1 {
+  width: 550px;
+  height: 386px;
+  flex-shrink: 0;
 }
