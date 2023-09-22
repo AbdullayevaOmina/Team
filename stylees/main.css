@@ -1,3 +1,37 @@
+header {
+  background-color: #0a2640;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: -10px;
+}
+
+.header-li {
+  color: #fff;
+}
+
+/* .container1{
+  max-width: 1600px;
+  margin: auto;
+} */
+
+.header-button {
+  display: flex;
+  padding: 8px 40px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #000;
+  margin-top: -0.5rem;
+}
+
 /* HERO-HEADING */
 
 .hero-heading {
@@ -411,4 +445,97 @@
   border-radius: 56px;
   border: 2px solid var(--Green, #65e4a3);
   background: var(--Green, #65e4a3);
+}
+
+/* FOOTER */
+
+.footer-blocks {
+  gap: 50px;
+}
+
+.footer {
+  width: 1400px;
+  /* height: 450px; */
+}
+
+.logo-footer {
+  display: flex;
+  width: 156px;
+  height: 41px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.833px;
+  flex-shrink: 0;
+  color: rgba(10, 38, 64, 1);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.h2-footer {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.input-footer {
+  width: 370px;
+  height: 56px;
+  top: 261px;
+  left: 298px;
+  border-radius: 240px;
+}
+
+.button-footer {
+  width: 210px;
+  height: 55px;
+  border-radius: 240px;
+  background-color: #65e4a3;
+  color: black;
+}
+
+.button-footer.hiring {
+  width: 72px;
+  height: 28px;
+  text-align: center;
+}
+
+.footer-p {
+  color: var(--Gray, #777);
+  width: 300px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer-ul {
+  width: 642px;
+  height: 240px;
+  top: 100px;
+  left: 579px;
+}
+
+.footer-ul-1 {
+  width: 150px;
+  height: 172px;
+  top: 168px;
+  left: 579px;
+}
+
+.footer-item {
+  padding-bottom: 20px;
+}
+
+.footer-all-rights {
+  width: 250px;
+  color: var(--Gray, #777);
+
+  /* Paragraphs/Text XS */
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
