@@ -11,7 +11,7 @@ header {
   margin-top: -10px;
 }
 
-.header-li {
+.header-li-2 {
   color: #fff;
 }
 
@@ -211,8 +211,7 @@ header {
 
 /* SECTION-OUR-TEAM */
 
-.section-our-team {
-}
+
 
 .section-our-team-container {
   margin-top: 100px;
@@ -264,8 +263,7 @@ header {
   justify-content: space-around;
 }
 
-.our-team-card {
-}
+
 
 .our-team-card-heading {
   color: #000;
@@ -337,8 +335,7 @@ header {
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
-.our-values-cards {
-}
+
 .our-values-card {
   display: flex;
   justify-content: space-between;
@@ -382,8 +379,7 @@ header {
 
 /* SECTION-EMAIL-ADDRESS */
 
-.section-email-address {
-}
+
 
 .email-address {
   margin: 150px 150px;
@@ -435,6 +431,7 @@ header {
 }
 
 .email-address-button {
+  cursor: pointer;
   width: 198px;
   height: 46px;
   display: inline-flex;
@@ -550,4 +547,93 @@ header {
   height: 172px;
   top: 168px;
   left: 579px;
+}
+
+
+/*---------------  3-page  ------------------ */
+
+.page-3-header-text {
+  text-align: center;
+  width: Fixed (888px);
+  height: Fixed (183px);
+  top: 143px;
+  left: 256px;
+  gap: 12px
+}
+
+.p3-h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.p3-p-blog {
+  color: var(--Dark-Blue, #0A2640);
+  font-family: Open Sans;
+  font-size: 20px;
+}
+
+
+.p3 {
+  gap: 85px;
+}
+
+.p3-header{
+  background-color: #fff;
+}
+
+.header-li{
+  color: #0a2640;
+}
+
+.page-3-section-1-text {
+  width: Fixed (550px);
+  height: Fixed (247px);
+  top: 436px;
+  left: 750px;
+  gap: 20px
+}
+
+.page-3-img-1 {
+  width: 550px;
+  height: 386px;
+  flex-shrink: 0;
+}
+
+
+
+.p3-section2-titel {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.p3-button {
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 56px;
+  border: 2px solid var(--Dark-Blue, #0A2640);
+  color: var(--Dark-Blue, #0A2640);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.p3-header-button {
+  display: flex;
+  padding: 8px 40px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 24px;
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  margin-top: -0.5rem;
 }

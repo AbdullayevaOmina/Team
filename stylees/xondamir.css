@@ -24,7 +24,7 @@ a {
 } */
 
 
-.header-li {
+.header-li-1 {
   color: #fff;
 }
 
@@ -154,7 +154,7 @@ a {
 
 .check {
   position: relative;
-  right: 2rem;
+  right: 4rem;
   top: 2rem;
 }
 
