@@ -551,20 +551,3 @@ header {
   top: 168px;
   left: 579px;
 }
-
-.footer-item {
-  padding-bottom: 20px;
-}
-
-.footer-all-rights {
-  width: 250px;
-  color: var(--Gray, #777);
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 175% */
-  left: 579px;
-}
-
-/* END */
