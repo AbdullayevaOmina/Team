@@ -491,7 +491,7 @@ header {
   top: 261px;
   left: 298px;
   border-radius: 240px;
-
+  border: 1px solid white;
   border-radius: 240px;
 }
 
@@ -502,6 +502,7 @@ header {
   background-color: #65e4a3;
   background-color: #65e4a3;
   color: black;
+  
 }
 
 .button-footer.hiring {
@@ -637,3 +638,5 @@ header {
   color: #000;
   margin-top: -0.5rem;
 }
+
+
